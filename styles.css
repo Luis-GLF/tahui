@@ -1,0 +1,36 @@
+body {
+    background-color: lightpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+section .toptext > small, .main, .bottom > h3 {
+    color: white;
+}
+
+section .main .img1{	
+    width: 10rem;
+    height: 10rem;
+}
+
+section .main .img2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+section .main > .scaled {
+    width: 10rem;
+    height: 10rem;
+}
+
+.img3 {
+    max-width: 25rem;
+    max-height: 25rem;
+}
+
+section .bottom p{
+    color: black;
+    text-justify: justify;
+}
